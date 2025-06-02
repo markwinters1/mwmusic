@@ -1,0 +1,63 @@
+/* Color palette from color_pallette.txt */
+:root {
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: Garamond, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--black);
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+section.bg-primary {
+  background-color: var(--white) !important;
+  color: var(--black);
+}
+
+section.bg-primary .display-3,
+section.bg-primary p,
+section.bg-primary a.btn {
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+
+section.bg-primary .lead {
+  color: var(--black);
+}
+
+.btn-light {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+.grey-hlght {
+  color: rgb(52, 75, 93);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-brand img {
+  height: 90%;
+  width: auto;
+  max-height: 160px;
+}
+
+.navbar {
+  border-bottom: 1px solid #e0e0e0 !important;
+}
