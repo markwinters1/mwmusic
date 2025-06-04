@@ -61,3 +61,54 @@ section.bg-primary .lead {
 .navbar {
   border-bottom: 1px solid #e0e0e0 !important;
 }
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.social-icons .facebook-icon svg,
+.social-icons .youtube-icon svg,
+.social-icons .instagram-icon svg {
+  height: 40px;
+  width: auto;
+  min-height: 40px;
+  max-height: 40px;
+  display: block;
+}
+
+.social-icons svg {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  fill: rgb(52, 75, 93);
+  transition: fill 0.2s;
+  display: block;
+}
+
+.social-icons svg:hover {
+  fill: #000;
+}
+
+.social-icons .facebook-icon:hover svg {
+  fill: #1877f3;
+}
+
+.social-icons .youtube-icon:hover svg {
+  fill: #ff0000;
+}
+
+.social-icons .instagram-icon:hover svg {
+  fill: #e4405f;
+}
+
+.social-icons .youtube-icon svg {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  box-sizing: content-box;
+}
